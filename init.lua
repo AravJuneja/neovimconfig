@@ -48,7 +48,7 @@ require("lazy").setup({
     build = ":TSUpdate",
     config = function()
       require("nvim-treesitter").install({
-        "c", "cpp", "python", "lua", "vim", "vimdoc", "verilog",
+        "c", "cpp", "cuda", "python", "lua", "vim", "vimdoc", "verilog",
       })
     end,
   },
